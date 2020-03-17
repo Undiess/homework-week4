@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <title>Quiz</title>
 </head>
 
@@ -18,8 +19,10 @@
    
     <div  class="text-center">
         <h1> Coding quiz Challenge </h1>
-        <p>Try to answer the questions, each wrong answer <br>will be penalised by taking 10 seconds from your timer </p>
-        <button id= "start-button" type="button" class="btn btn-primary">Start</button>
+        <p id = "question-text" >Try to answer the questions, each wrong answer <br>will be penalised by taking 10 seconds from your timer </p>
+        <div id="buttondiv">
+            <button id= "start-button" type="button" class="btn btn-primary">Start</button>
+        </div>
     </div>
     <script src="script.js"> </script>
 </body>
